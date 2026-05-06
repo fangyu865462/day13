@@ -1,0 +1,36 @@
+# 等待超时配置（单位：秒）
+timeout:
+  wait_appearance: 10
+  click_retry: 3
+  click_delay: 1
+
+# 控件名称映射
+controls:
+  main_menu:
+    basic: "basic"
+    drag_and_drop: "drag_and_drop"
+    list_view: "list_view"
+    local_positioning: "local_positioning"
+    wait_ui: "wait_ui"
+    wait_ui2: "wait_ui2"
+    btn_back: "btn_back"
+
+  basic_page:
+    pos_input: "pos_input"
+    tpl1776663679592.png: "tpl1776663679592.png"
+    btn_back: "btn_back"
+
+  drag_drop_page:
+    star_parent: "playDragAndDrop"
+    star_child: "star"
+    shell: "shell"
+    score: "scoreVal"
+    drag_and_drop: "drag_and_drop"
+
+  list_view_page:
+    scroll_view: "Scroll View"
+    viewport: "Viewport"
+    content: "Content"
+    selected_item: "list_view_current_selected_item_name"
+    last_item: "Text (12)"
+    btn_back: "btn_back"
